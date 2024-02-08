@@ -21,7 +21,7 @@ const Hero = () => (
         className="translate-x-[0] md:translate-x-[80px] translate-y-[-230px] md:w-[400px] lg:w-[750px] md:translate-y-[-100px]"
       />
       <div className="absolute lg:w-[1150px] lg:h-[1000px] lg:top-[-100px] lg:right-[-420px] md:w-[800px] md:h-[500px] md:top-[-80px] md:right-[-400px] xl:right-[-340px] -z-20 overflow-hidden md:bg-heroBackDesk bg-contain bg-no-repeat" />
-      <div className="absolute md:hidden sm:w-[800px] sm:h-[900px] sm:top-[-100px] sm:right-[-10px] -z-20 overflow-hidden bg-heroBackMob bg-contain bg-no-repeat w-[600px] h-[900px] top-[-250px] right-[-10px]" />
+      <div className="absolute md:hidden sm:w-[800px] sm:h-[900px] sm:top-[-100px] sm:right-[-10px] -z-20 overflow-hidden bg-heroBackMob bg-contain bg-no-repeat w-[600px] h-[900px] top-[-290px] right-[-10px]" />
     </div>
   </div>
 );
