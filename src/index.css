@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-nav {
+  box-shadow: 0px 12px 6px rgba(0, 0, 0, 0.3);
+}
+.nav-tr {
+  animation: tanslate ease-in-out 0.5s;
+}
+
+@keyframes tanslate {
+  0% {
+    transform: translate(-50%, -80%);
+  }
+  100% {
+    transform: translate(-50%, 80%);
+  }
+}
